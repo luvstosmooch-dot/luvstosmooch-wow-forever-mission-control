@@ -1,0 +1,40 @@
+{
+  "$schema": "./roster.schema.json",
+  "roster_name": "Wow Forever",
+  "faction": "Alliance",
+  "ruleset": "Normal",
+  "launch": "2026-11-04",
+  "characters": [
+    {
+      "id": "luvstosmooch", "name": "Luvstosmooch", "race": "Human", "class": "Warlock",
+      "leveling_spec": "Affliction", "endgame_spec": "Affliction", "role": "Damage",
+      "notes": "Main",
+      "professions": [ { "name": "Enchanting" }, { "name": "Tailoring" } ]
+    },
+    {
+      "id": "luvstobetree", "name": "Luvstobetree", "race": "Night Elf", "class": "Druid",
+      "leveling_spec": "Feral", "endgame_spec": "Restoration", "role": "Healer",
+      "notes": "First to 10",
+      "professions": [
+        { "name": "Skinning" },
+        { "name": "Mining", "from": 1, "until": 10 },
+        { "name": "Leatherworking", "from": 10 }
+      ]
+    },
+    {
+      "id": "luvstoblast", "name": "Luvstoblast", "race": "Gnome", "class": "Mage",
+      "leveling_spec": "Frost", "endgame_spec": "Frost", "role": "Damage",
+      "professions": [ { "name": "Engineering" }, { "name": "Mining" } ]
+    },
+    {
+      "id": "luvstopray", "name": "Luvstopray", "race": "Dwarf", "class": "Paladin",
+      "leveling_spec": "Retribution", "endgame_spec": "Protection", "role": "Tank",
+      "professions": [ { "name": "Mining" }, { "name": "Blacksmithing" } ]
+    },
+    {
+      "id": "luvstoheal", "name": "Luvstoheal", "race": "Dwarf", "class": "Shaman",
+      "leveling_spec": "Enhancement", "endgame_spec": "Restoration", "role": "Healer",
+      "professions": [ { "name": "Herbalism" }, { "name": "Alchemy" } ]
+    }
+  ]
+}
