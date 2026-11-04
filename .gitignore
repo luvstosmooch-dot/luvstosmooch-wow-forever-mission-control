@@ -1,0 +1,14 @@
+# generated every run; never commit
+build/
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
+node_modules/
+.wrangler/
+# never commit raw game files
+WTF/
+SavedVariables/
+progress/backups/
+config/roster.draft.json
+dist/
